@@ -1,0 +1,304 @@
+body{
+    background: #1a1917;
+    min-height: 100vh;
+    font-family: "Clash Grotesk",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    color: antiquewhite;
+   
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.div1,.div2,.div3{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+    height: 50vh;
+    flex-wrap: wrap;
+} 
+
+img{
+   width: 144px;
+   height: 127px;
+   
+}
+
+.button1{
+
+    border-radius: 15px;
+    color: #fef9f9;
+    background: #0084dc;
+    border: none;
+    padding: 5px 8px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    margin: 0vh 0vw 0vw 0vw;
+   
+}
+
+
+.button2{
+
+    border-radius: 15px;
+    color: #fef9f9;
+    background: #0084dc;
+    border: none;
+    padding: 5px 8px;
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    margin: 3vh 0vw 0vw 0vw;
+
+   
+}
+
+
+.button3{
+
+    border-radius: 15px;
+    color: #fef9f9;
+    background: #0084dc;
+    border: none;
+    padding: 5px 8px;
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    margin: 3vh 0vw 0vw 0vw;
+    
+
+   
+}
+
+.button1:hover,.button2:hover,.button3:hover{
+    box-shadow: 5px 5px 0px #363fe7;
+    background-color: #c71313;
+    
+}
+
+
+
+
+
+
+
+.cursor {
+    position: fixed;
+    border-radius: 50%;
+    transform:all ease translateX(-50%) translateY(-50%);
+    pointer-events: none;
+    left: -100px;
+    top: 50%;
+    mix-blend-mode: difference; 
+    background-color: transparent;
+    z-index: 10000;
+    border: 2px solid white;
+    height: 30px;
+    width: 30px;
+    transition: all 50ms ease-out;
+}
+  
+
+.bigone{
+
+    width: 96vw;
+    height: 17vh;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+
+.perl{
+
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 4.5%;
+}
+
+
+
+button {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #e5e4df;
+    border-radius: 999px;
+    padding: 0.75rem 2rem;
+    width: auto;
+    background-color: rgba(0,0,0,0);
+    color: #e5e4df;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all ease 1s;
+    /* -webkit-transition: background-color .25s,color .25s; 
+    -o-transition: background-color .25s,color .25s; 
+    transition: background-color .25s,color .25s; */
+} 
+  
+button:hover{
+
+    background-color: antiquewhite;
+    color: black;
+    transform: scaleX(1.6);
+    transform: scaleY(1.1);
+   
+    
+    
+}
+    
+
+  
+ul li{
+
+
+    display:inline-block;
+
+    
+
+}
+
+.next{
+
+    margin-top: 13%;
+    margin-left: 4.5%;
+    
+}
+
+.hello{
+
+
+    font-size: 50px;
+    font-weight: 400;
+
+}
+
+img{
+
+
+    width: 0.9em;
+    height: 0.9em;
+    margin-left: -10px;
+    vertical-align:bottom;
+    transition: all ease 1s;
+    border-radius: 20px;
+
+}
+
+img:hover{
+
+    transform: scale(4) rotate(1turn);
+    
+}
+
+span{
+
+    transition: all ease 1s;
+    
+    
+
+
+}
+
+span:hover{
+
+    text-decoration: underline;
+   
+    color:rgb(133, 33, 226);
+
+}
+
+.word{
+
+
+    margin-top: 24%;
+
+
+}
+
+.fun{
+
+    width: 65vw;
+    
+    margin-top: 4%;
+    margin-left: 4.5%;
+    margin-right: 5%;
+    font-size: 35px;
+    margin-bottom: 2%;
+    text-align: left;
+
+
+}
+
+.arr{
+
+    margin-left: 4.5%;
+    margin-top:24% ;
+    font-size: 30px;
+
+}
+
+.nee{
+
+    font-size: 20px;
+
+}
+
+.Brands{
+     
+    width: 75vw;
+    margin-top: 24%;
+    margin-left: 4.5%;
+    font-size: 40px;
+
+}
+
+.conn{
+
+    font-size: 20px;
+
+}
+
+.con{
+
+    width: 65%;
+    margin-left: 4.5%;
+    margin-top: 24%;
+    font-size: 37px;
+
+}
+.hell{
+    width: 94vw;
+    height: 17vh;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-between;
+    margin-top: 24%;
+    margin-bottom: 10%;
+}
+.kind{
+    font-size: 20px;
+    margin-left: 4.5%;
+    margin-top: 4%;
+    transition: all ease 1s;
+    
+    
+}
+
+.kind:hover{
+    
+    text-decoration: underline;
+    font-size: 50px;
+    
+    
+    
+}
+
